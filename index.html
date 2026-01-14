@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="website icon" type="png" href="Images/OUDESSY LOGO.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Oudtown</title>
+</head>
+<body>
+    <header>
+        <h3>OUDTOWN</h3>
+        <nav>
+            <ul class="links">
+                <li><a href="#product">New Scents</a></li>
+                <li><a href="#">Male</a></li>
+                <li><a href="#">Female</a></li>
+                <li><a href="#">Unisex</a></li>
+                <li><a href="#">Brands</a></li>
+            </ul>
+        </nav>
+
+        <div class="search-bar">
+            <input type="text" placeholder="Search for scents, brands...">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <nav class="icons">
+            <i class="fa-solid fa-user" title="Sign-up"></i>
+            <i class="fa-solid fa-heart" title="Wishlist"></i>
+            <div id="bag-icon">
+                <i class="fa-solid fa-bag-shopping" title="Shopping bag"></i>
+                <span class="bag-count"></span>
+            </div>
+        </nav>
+    </header>
+
+<!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-txt">
+            
+        </div>
+    </section>
+
+    <!-- CATEGORY SECTION -->
+    <section class="category">
+        <h2>Shop by Category</h2>
+        <div class="category-container">
+         <div class="category-card" style="background-image: url('Images/MALE COLLECTION.png');">
+            <a href="#" class="category-text">For Him</a>
+        </div>
+
+        <div class="category-card" style="background-image: url('Images/FEMALE COLLECTION.png');">
+            <a href="#" class="category-text">For Her</a>
+        </div>
+
+        <div class="category-card" style="background-image: url('Images/UNISEX.png')">
+            <a href="#" class="category-text">Unisex</a>
+        </div>
+    </section>
+
+    <!-- CART SECTION -->
+     <div class="bag">
+        <h2 class="bag-title">Shopping Bag <i class="fa-solid fa-bag-shopping"></i></h2>
+        <div class="bag-content">
+            <!-- <div class="bag-box">
+                <img src="Product_images/Asadelixir.png" class="bag-img"> 
+                <div class="bag-details">
+                    <p class=Brand">Lattafa</p>
+                    <h2 class="bag-product-title">Asad Elixir</h2>
+                    <p class="bag-price">₦40000</p>
+                    <p class="bag-size">100ml</p>
+                    <p class=Brand">Lattafa</p>
+                    <div class="bag-quantity">
+                        <button id="decrease">-</button>
+                        <span class="quantity">1</span>
+                        <button id="increase">+</button>
+                    </div>
+              </div> 
+              <i class="fa-solid fa-trash bag-remove"></i>
+            </div> -->
+        </div>
+        <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price"><span id="naira"></span>0</div>
+        </div>
+        <button class="btn-checkout">Buy Now</button>
+        <i class="fa-solid fa-xmark" id="bag-close"></i>
+     </div>
+
+    <!-- PRODUCT DISPLAY -->
+    <section id="product" class="product">
+        <h2>Latest Drops</h2>
+        <h5>Get in on the hottest Scents & Fragrance - Everyone's talking about them</h5>
+    
+        <!-- PRODUCT-1 -->
+        <div class="product-grid">
+        <div class="product-card">
+            <img src="Product_images/Asadelixir.png" class="product-img" alt="Asadelixir">
+            <div class="card-details">
+              <h2 class="Brand">Lattafa</h2>
+                <h3 class="product-name">Asad Elixir EDP</h3>
+                <h2 class="size">100ml</h2>
+                <p class="price">₦36,000.00</p>
+                <p class="add-to-cart">Add to Cart</p>
+            </div>
+        </div>
+
+        <!-- PRODUCT-2 -->
+        <div class="product-card">
+            <img src="Product_images/YaraElixir.png" class="product-img" alt="YaraElixir">
+            <div class="card-details">
+                <h2 class="Brand">Lattafa</h2>
+                <h3 class="product-name">Yara Elixir EDP</h3>
+                <h2 class="size">100ml</h2>
+                <p class="price">₦36,000.00</p>
+                <p class="add-to-cart">Add to Cart</p>
+            </div>
+        </div>
+
+        <!-- PRODUCT-3 -->
+        <div class="product-card">
+            <img src="Product_images/Supremacy.png" class="product-img" alt="Supremacy">
+            <div class="card-details">
+                <h2 class="Brand">Afnan</h2>
+                <h3 class="product-name">Supremacy Edition EDP</h3>
+                <h2 class="size">100ml</h2>
+                <p class="price">₦86,500.00</p>
+                <p class="add-to-cart">Add to Cart</p>
+            </div>
+        </div>
+
+        <!-- PRODUCT-4 -->
+        <div class="product-card">
+            <img src="Product_images/Afnan9pm.png" class="product-img" alt="Afnan9pm">
+            <div class="card-details">
+              <h2 class="Brand">Afnan</h2>
+                <h3 class="product-name">Afnan 9PM EDP</h3>
+                <h2 class="size">100ml</h2>
+                <p class="price">₦58,000.00</p>
+                <p class="add-to-cart">Add to Cart</p>
+            </div>
+        </div>
+
+         <!-- PRODUCT-5 -->
+        <div class="product-card">
+            <img src="Product_images/MissArmafCatwalk.png" class="product-img" alt="MissArmafCatwalk">
+            <div class="card-details">
+              <h2 class="Brand">Armaf</h2>
+                <h3 class="product-name">Miss Armaf Catwalk EDP</h3>
+                <h2 class="size">100ml</h2> 
+                <p class="price">₦35,000.00</p>
+                <p class="add-to-cart">Add to Cart</p>
+            </div>
+        </div>
+
+         <!-- PRODUCT-6 -->
+        <div class="product-card">
+            <img src="Product_images/Clubdenuit.png" class="product-img" alt="Clubdenuit">
+            <div class="card-details">
+              <h2 class="Brand">Armaf</h2>
+                <h3 class="product-name">Club De Nuit EDT</h3>
+                <h2 class="size">105ml</h2>
+                <p class="price">₦45,000.00</p>
+                <p class="add-to-cart">Add to Cart</p>
+            </div>
+        </div>
+
+         <!-- PRODUCT-7 -->
+        <div class="product-card">
+            <img src="Product_images/GhostSpectre.png" class="product-img" alt="GhostSpectre">
+            <div class="card-details">
+              <h2 class="Brand">French Avenue</h2>
+                <h3 class="product-name"> Spectre Ghost EDP</h3>
+                <h2 class="size">80ml</h2>
+                <p class="price">₦40,000.00</p>
+                <p class="add-to-cart">Add to Cart</p>
+            </div>
+        </div>
+
+         <!-- PRODUCT-8 -->
+        <div class="product-card">
+            <img src="Product_images/liquidbrun.png" class="product-img" alt="liquidbrun">
+            <div class="card-details">
+              <h2 class="Brand">French Avenue</h2>
+                <h3 class="product-name">Liquid Brun EDP</h3>
+                <h2 class="size">100ml</h2>
+                <p class="price">₦52,800.00</p>
+                <p class="add-to-cart">Add to Cart</p>
+            </div>
+        </div>
+
+            <!-- PRODUCT-9 -->
+        <div class="product-card">
+            <img src="Product_images/HawasAtlantis.png" class="product-img" alt="HawasBlack">
+            <div class="card-details">
+              <h2 class="Brand">Rasasi</h2>
+                <h3 class="product-name">Hawas Black EDP</h3>
+                <h2 class="size">100ml</h2>
+                <p class="price">₦70,800.00</p>
+                <p class="add-to-cart">Add to Cart</p>
+            </div>
+        </div>
+
+            <!-- PRODUCT-10 -->
+        <div class="product-card">
+            <img src="Product_images/HawasFire.png" class="product-img" alt="HawasFire">
+            <div class="card-details">
+              <h2 class="Brand">Rasasi</h2>
+                <h3 class="product-name">Hawas Fire EDP</h3>
+                <h2 class="size">100ml</h2>
+                <p class="price">₦68,200.00</p>
+                <p class="add-to-cart">Add to Cart</p>
+            </div>
+        </div>
+
+
+        <!-- PRODUCT-11 -->
+        <div class="product-card">
+            <img src="Product_images/Cookiecrave.png" class="product-img" alt="liquidbrun">
+            <div class="card-details">
+              <h2 class="Brand">Lattafa</h2>
+                <h3 class="product-name">Cookie Crave EDP</h3>
+                <h2 class="size">100ml</h2>
+                <p class="price">₦50,600.00</p>
+                <p class="add-to-cart">Add to Cart</p>
+            </div>
+        </div>
+
+        <!-- PRODUCT-12 -->
+        <div class="product-card">
+            <img src="Product_images/KhamrahLattafa.png" class="product-img" alt="KhamrahLattafa">
+            <div class="card-details">
+              <h2 class="Brand">Lattafa</h2>
+                <h3 class="product-name">Khamrah Qahwa EDP</h3>
+                <h2 class="size">100ml</h2>
+                <p class="price">₦45,800.00</p>
+                <p class="add-to-cart">Add to Cart</p>
+            </div>
+        </div>
+
+    </div>
+    <!--End Of Product Grid-->
+    </section>
+
+    <!-- TRUST SECTION -->
+     <section class="trust">
+        <h1>A Store You Can Trust</h1>
+        <h2>Clean quality &starf; Reliable service &starf; Zero drama</h2>
+        <div class="trust-container">
+            <div class="trust-card">
+                <p class="icon-card"><i id="truck" class="fa-solid fa-truck-fast"></i></p>
+                <h3>Fast Delivery</h3>
+                <p class="trust-text">Free shipping on all orders over <span id="naira">N</span>320,000.
+                    Standard delivery in 2-5 business days, express delivery within 1-2 days for other states.
+                    24hrs for delivery within Port Harcourt.
+                </p>
+            </div>
+
+            <div class="trust-card">
+                <p class="icon-card"><i id="check" class="fa-regular fa-circle-check"></i></p>
+                <h3>Authenticity</h3>
+                <p class="trust-text">Every item is authenticated by our experts. 
+                    We guarantee 100% quality products or your money back with our comprehensive verification process.
+                </p>
+            </div>
+
+            <div class="trust-card">
+                <p class="icon-card"><i id="return"class="fa-solid fa-rotate-left"></i></p>
+                <h3>Hassle-Free Returns</h3>
+                <p class="trust-text">Not completely satisfied? Return within 15 days for a full refund.
+                    Free return shipping and no restocking fees on unused products.
+                </p>
+            </div>
+        </div>
+     </section>
+
+     <footer>
+        <div class="footer-grid">
+            <div class="footer-links">
+                <h3>Customer Service</h3>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Size Guide</a></li>
+                    <li><a href="#">Shipping & Returns</a></li>
+                    <li><a href="#">Denim Care</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h3>About</h3>
+                <ul>
+                    <li><a href="#">Our Culture</a></li>
+                    <li><a href="#">Brand Partners</a></li>
+                    <li><a href="#">Street Culture</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#">Style Consultation</a></li>
+                    <li><a href="#">Denim Hemming</a></li>
+                    <li><a href="#">Gift Cards</a></li>
+                    <li><a href="#">Loyalty Program</a></li>
+                    <li><a href="#">Sneaker Cleaning</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h3>Connect</h3>
+                <ul>
+                    <li><p>46 GRA Road Phase 3, Port Harcourt, Rivers State, Nigeria</p></li>
+                    <li><a href="tel:+2348033943156">Phone: (+234) 802 000 4000</a></li>
+                    <li><a href="mailto:danielobenney@gmail.com">Email: info@OUDTOWN.com</a></li>
+                    <p class="social-icons">
+                        <a href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://instagram.com/DanielObenney" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://x.com/yourhandle" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://threads.com/yourhandle" target="_blank"><i class="fa-brands fa-threads"></i></a>
+                        <a href="https://wa.me/+2348033943156" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://tiktok.com/OUDTOWN jack" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://pinterest.com/yourhandle" target="_blank"><i class="fa-brands fa-pinterest-p"></i></a>
+                    </p>
+                </ul>
+            </div>
+        </div>
+
+        <p id="copyright">&copy; 2026 OUDTOWN. All Rights Reserved. &VerticalLine; <a href="">Terms of Service</a>  &VerticalLine; <a href="">Privacy Policy</a></p>
+     </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
