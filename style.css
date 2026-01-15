@@ -809,7 +809,7 @@ footer #copyright {
     }
 
     .card-details {
-        height: 180px;
+        height: fit-content;
     }
 
     .card-details .Brand {
@@ -830,6 +830,7 @@ footer #copyright {
 
     .add-to-cart {
         font-size: .9rem;
+        margin-bottom: 10px;
     }
 
     .trust {
