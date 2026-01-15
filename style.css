@@ -809,7 +809,7 @@ footer #copyright {
     }
 
     .card-details {
-        height: 185px;
+        height: 180px;
     }
 
     .card-details .Brand {
@@ -970,4 +970,5 @@ footer #copyright {
         margin: 0;
         padding: 0.5rem;
     }
+
 }
