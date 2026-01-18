@@ -459,7 +459,7 @@ i:nth-child(2):active {
     text-align: center;
     color: #1f2937;
     background-color: #FFFFFF;
-    height: 180px;
+    height: fit-content;
 
 }
 
@@ -822,7 +822,7 @@ footer #copyright {
     }
 
     .card-details {
-        height: 180px;
+        height: fit-content;
     }
 
     .card-details .Brand {
@@ -843,7 +843,7 @@ footer #copyright {
 
     .add-to-cart {
         font-size: .9rem;
-        margin-bottom: 5px;
+        margin-bottom: 2px;
     }
 
     .trust {
@@ -938,7 +938,7 @@ footer #copyright {
     }
 
     .card-details {
-        height: 180px;
+        height: fit-content;
     }
 
     .card-details .Brand {
@@ -959,7 +959,7 @@ footer #copyright {
     
     .add-to-cart {
         font-size: .9rem;
-        margin-bottom: 5px;
+        margin-bottom: 2px;
     }
 
     .trust {
